@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"> 
+<title>GREENCLEANER</title>
+<style>
+/*///// about1-회사소개 SubPage /////*/
+.about_top{
+	position:relative;
+	width:900px;
+	height:300px;
+	margin:50px auto;
+	background:url(../image/about_top.png) no-repeat left top;
+}
+.about_top h2{
+	position:absolute;
+	top:80px;
+	right:200px;
+	font-size:22px;
+	font-weight:900;
+	color:#333;
+}
+.about_top h4{
+	position:absolute;
+	top:110px;
+	right:130px;
+	text-align:right;
+	font-size:32px;
+	color:#2a5c9a;
+	text-shadow:2px 2px 2px #666;
+}
+.about_bottom{
+	width:800px;
+	margin:0 auto;
+	padding-bottom:100px;
+	background:url(../image/about_bottom.png) no-repeat right bottom;
+}
+.a_left{
+	width:350px;
+	float:left;
+}
+.a_right{
+	width:350px;
+	float:right;
+}
+.about_bottom h5{
+	width:150px;
+	height:30px;
+	border-radius:20px;
+	background:#56a925;
+	margin:0 0 40px 30px;
+	text-align:center;
+	line-height:30px;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	box-shadow: 0px 0px 5px #fff inset;  
+}
+.about_bottom ul li{
+	list-style-image:url(../image/dot.png);
+  list-style-position:inside; 
+  margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom:1px dotted #666;
+	color:#333;
+	font-size:15px;
+	font-weight:bold;
+  text-indent:20px; 
+}
+
+
+/*///// about2-인사말 SubPage /////*/
+.contents{
+	margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.ceo_img img{
+  width: 399px;
+  height: 626px;
+  border-radius: 0 30px 0 30px;
+  overflow: hidden;
+}
+.greeting{
+  margin-left: 50px;
+  line-height: 30px;
+}
+.greeting .greetimg_end{
+  text-align: right;
+  padding-top: 100px;
+}
+.greeting .tcolor{
+  color: crimson;
+}
+
+
+/*///// business SubPage /////*/
+.img-txt{
+	display: flex;
+	margin: 50px 0;
+}
+.img-txt img{
+	margin-right: 30px;
+}
+.img-txt:last-child{padding-bottom:50px;}
+.part-txt1 h4{
+	font-size:20px;
+	color:#999;
+	margin-bottom:20px;
+}
+.part-txt1 p{
+	color:#333;
+	line-height:24px;
+	text-align:left;
+}
+
+
+/*///// contact SubPage /////*/
+
+.info{
+	display: flex;
+}
+
+/*왼쪽 폼부분*/
+.online{
+	width:600px;
+	padding-top:30px;
+	padding-left:50px;
+	margin-bottom:50px;
+}
+.mail p{margin-bottom:15px;}
+.mail input{
+	width:80%;
+	height:35px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	text-indent:10px;	
+}
+.mail textarea{
+	width:80%;
+	height:150px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	text-indent:10px;
+}
+.mail .btn{
+	width:85px;
+	height:40px;
+	line-height:40px;
+	background:#3157ad;
+	border:none;
+	border-radius:5px;
+	color:#fff;
+	cursor:pointer;
+}
+.mail .btn:hover{background:#163780;}
+
+/* 오른쪽 주소부분 */
+.contact{
+	width:350px;
+	margin-top:30px;
+}
+.contact p{
+	margin-bottom:30px;
+	text-align:left;
+	font-size:16px;
+}
+.material-icons{  /*ICON FONT*/
+  font-size:20px;
+	color:#666;
+	padding-right:10px;
+  vertical-align:middle;
+}
+
+.map{text-align:center;}
+
+
+
+</style>
+</head>
+<body>
+
+<!-- About1 -->
+<div class="location">
+	<i class="fa fa-home"></i><span> &gt; about &gt; </span><span>회사소개</span>
+</div>
+
+<div class="smenu"> 
+	<ul>
+			<li><a href="about1.html" class="active">회사소개</a></li>
+			<li><a href="about2.html">인사말</a></li>
+	</ul>
+</div>
+
+<h3>COMPANY</h3> <!--각 서브페이지 제목-->
+<div class="about_top">
+		<h2>"More Better Clean Tomorrow"</h2>
+		<h4>간이상수도 및 정수시설 제품</h4>
+</div>
+	<div class="about_bottom clear">
+		<div class="a_left">
+			<h5>생산제품</h5>
+			<ul>
+				<li>정수장비세트(조달청 3자단가 계약제품)</li>
+				<li>역삼투입(R/O)장치</li>
+				<li>이온교환수지장치</li>
+				<li>활성탄여과장치</li>
+				<li>경수연화장치</li>
+				<li>역세척필터장치</li>
+				<li>계곡수용 자동역세 여과장치</li>
+				<li>정밀여과장치</li>
+				<li>복합자외선 살균장치</li>
+				<li>초순수장치(EDI, CDI, MDI)</li>
+			</ul>
+		</div>
+		<div class="a_right">
+			<h5>적용분류</h5>
+			<ul>
+				<li>간이상수도, 정수장</li>
+				<li>농어촌 산간지역</li>
+				<li>아파트 중앙정수장</li>
+				<li>사우나,수영장</li>
+				<li>반도체 세척수</li>
+				<li>산업체도금, 전착도장</li>
+				<li>기타 물이 필요한 모든 부문</li>
+			</ul>
+		</div>
+	</div>
+
+
+
+
+<!-- About2 -->
+<div class="location">
+	<i class="fa fa-home"></i><span> &gt; about &gt; </span><span>인사말</span>
+</div>
+
+<div class="smenu"> 
+	<ul>
+			<li><a href="about1.html">회사소개</a></li>
+			<li><a href="about2.html" class="active">인사말</a></li>
+	</ul>
+</div>
+
+<h3>GREETING</h3> <!--각 서브페이지 제목-->
+	<div class="contents">
+		<div class="ceo_img" alt="greetings">
+			<img src="image/ceo.jpg" alt="ceo">
+		</div>
+		<div class="greeting">
+			2020년 시작된 코로나 팬데믹은 우리의 일상생활을 크게 바꾸어 놓았습니다. 마스크 착용과 손 위생 등
+			감염예방을 고려한 새로운 문화가 정착되었지만, 바이러스에 대한 막연한 두려움과 심리적 안심을 위해
+			과도한 소독제 사용으로 사람들의 건강이 위협받고 있으며 때로는 표면 자재손상이 발생하기도 합니다. 
+			<br><br>
+			또한 최근 새로운 트랜드인 “ESG 경영”은 회사 운영에 있어 지구환경 보호과 사람들의 건강 보장, 건물 내 안전사고 예방 등에 대한 요구가 높아지고 있습니다.    
+			<br><br>
+			<p class="tcolor">
+				UBM은 미국 뉴욕에서 출발한 <strong>“클리닝솔루션 전문기업”</strong>으로 표면 감염예방과  자원 재활용을 통한 지구 생태계 보전, 건물내 안전하고 쾌적한 환경조성을 위한 다양한 솔루션을 지속적으로 연구개발하여 왔습니다.  
+			</p>
+			<br>
+			우리는 축적된 기술력과 연구성과의 산물인 <strong>“GREENCLEANER 건물 청결관리 시스템”</strong>을 한국의 고객 여러분들과 함께 공유하고자 합니다. 이를 통해 고객사의 미화관련 비용을 획기적으로 줄이면서, 동시에 건물 청결 및 위생수준을 향상시키고, 건물 자산가치를 안정적으로 유지시킬 수 있도록 적극적으로 지원하겠습니다.						
+			<p class="greetimg_end">
+				<img src="image/logo.jpg" alt="GREENCLEANER"><br>
+				GREENCLEANER 임직원 일동
+			</p>
+		</div>
+	</div>
+
+
+<!-- Business -->
+<div class="location">
+	<i class="fa fa-home"></i><span></span><span> &gt; business</span>
+</div>
+<h3>BUSINESS</h3> 
+<div class="img-txt">
+	<img src="image/sub-banner01.jpg" alt="사례1. 탱크 및 파이프 청소" 
+	title="사례1. 탱크 및 파이프 청소">	
+	<div class="part-txt1">
+		<h4>사례1. 탱크 및 파이프 청소</h4>
+		<p>조리기구등의 살균 및 세정! 이산화염소수는 세균막을 제거시키는 
+		효능이 강하고 강력한 산화력으로 빛에 의해 쉽게 분해되며 잔류물의 
+		영향이 없어 환경친화적이므로 식재료의 세정이나 식기, 조리기구등의
+		세척시 뛰어난 살균 능력을 발휘합니다.</p>
+	</div>	
+</div>
+<div class="img-txt">
+	<img src="image/sub-banner02.jpg" alt="사례2. 탱크 및 파이프 청소" 
+	title="사례2. 탱크 및 파이프 청소">	
+	<div class="part-txt1">
+		<h4>사례2. 탱크 및 파이프 청소</h4>
+		<p>조리기구등의 살균 및 세정! 이산화염소수는 세균막을 제거시키는 
+		효능이 강하고 강력한 산화력으로 빛에 의해 쉽게 분해되며 잔류물의 
+		영향이 없어 환경친화적이므로 식재료의 세정이나 식기, 조리기구등의
+		세척시 뛰어난 살균 능력을 발휘합니다.</p>
+	</div>	
+</div>
+<div class="img-txt">
+	<img src="image/sub-banner03.jpg" alt="사례3. 탱크 및 파이프 청소" 
+	title="사례3. 탱크 및 파이프 청소">	
+	<div class="part-txt1">
+		<h4>사례3. 탱크 및 파이프 청소</h4>
+		<p>조리기구등의 살균 및 세정! 이산화염소수는 세균막을 제거시키는 
+		효능이 강하고 강력한 산화력으로 빛에 의해 쉽게 분해되며 잔류물의 
+		영향이 없어 환경친화적이므로 식재료의 세정이나 식기, 조리기구등의
+		세척시 뛰어난 살균 능력을 발휘합니다.</p>
+	</div>	
+</div>
+
+
+<!-- Contact -->
+<div class="location">
+	<i class="fa fa-home"></i><span></span><span> &gt; contact</span>
+</div>     
+<h3>CONTACT</h3> <!--각 서브페이지 제목-->
+<div class="info">
+	<div class="online">
+		<form class="mail">  
+			<p><input type="text" name="name" placeholder="이름" title="Name"></p>
+			<p><input type="text" name="email" placeholder="이메일" title="Email"></p>
+			<p><input type="text" name="subject" placeholder="제목" title="Subject"></p>
+			<p><textarea name="message" placeholder="내용" title="Message"></textarea></p>
+			<p> 
+					<button type="submit" class="btn">전 송</button>                 
+					<button type="reset" class="btn">재설정</button>
+			</p>
+		</form> 	
+	</div>
+	<div class="contact">
+		<p><i class="material-icons">place</i> 서울시 종로구 종로 78 미려빌딩6층 </p>
+		<p><i class="material-icons">perm_phone_msg</i> 02-733-8781</p>
+		<p><i class="material-icons">move_to_inbox</i>  02-733-8923 </p>
+		<p><i class="material-icons">email</i>  ezen&commat;ezenac.co.kr</p>
+		<p><i class="material-icons">account_balance</i> 이젠아카데미컴퓨터학원</p>
+	</div>
+</div>
+<div class="map">
+	<!-- http://maps.google.co.kr 구글지도삽입 -->	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1581.15245038107!2d126.9840743259583!3d37.571437420827536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2e884a99ec5%3A0xbe472f65f98bf09c!2z66-466Ck67mM65Sp!5e0!3m2!1sko!2skr!4v1638865265890!5m2!1sko!2skr" width="900px" height="450px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+
+
+</body>
+</html>
